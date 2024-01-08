@@ -2,26 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #f0f2f5;
+}
+
+.ant-message-notice-content {
+  box-shadow: none !important;
+  border-radius: 4px !important;
+  border: 1px solid transparent;
+  padding: 0.78125vw 0.78125vw 0.78125vw 1.041667vw !important;
+  font-size: 0.83vw !important;
+}
+
+.warning .ant-message-notice-content {
+  background-color: #fdf6ec !important;
+  border-color: #faecd8;
+  color: #e6a23c;
+}
+
+.error .ant-message-notice-content {
+  background-color: #fef0f0 !important;
+  border-color: #fde2e2;
+  color: #f56c6c;
+}
+
+.ant-checkbox-inner {
+  width: 0.9vw !important;
+  height: 0.9vw !important;
+  border-radius: 0.104167vw !important;
+}
+
+.ant-checkbox-inner:after {
+  width: 5px !important;
+  height: 8px !important;
+}
+
+.ant-pagination,
+.ant-select-item-option-content,
+.ant-select-selection-item {
+  font-size: 13px;
 }

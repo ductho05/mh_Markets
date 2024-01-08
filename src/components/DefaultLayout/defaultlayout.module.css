@@ -1,0 +1,14 @@
+.bottom_content {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60px;
+  height: 88vh;
+  overflow-y: scroll;
+}
+
+.bottom_content::-webkit-scrollbar {
+  display: none;
+}

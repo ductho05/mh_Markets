@@ -1,0 +1,40 @@
+.button_search {
+  margin-left: 20px;
+  border-color: #c6222f;
+  color: #c6222f;
+  box-shadow: none;
+}
+
+.button_search:hover {
+  border-color: #c6222f !important;
+  color: #c6222f !important;
+}
+
+.button_reset {
+  margin-left: 20px;
+}
+
+.button_reset:hover {
+  border-color: #d9d9d9 !important;
+  color: #000000e0 !important;
+}
+
+.button_plus_account {
+  margin-left: 20px;
+  background-color: rgba(219, 25, 42, 0.03);
+  color: #c6222f;
+  border: none;
+}
+
+.button_plus_account:hover {
+  color: #c6222f !important;
+}
+
+.list_users {
+  height: 52vh;
+  overflow-y: scroll;
+}
+
+.list_users::-webkit-scrollbar {
+  display: none;
+}

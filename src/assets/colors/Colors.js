@@ -1,0 +1,5 @@
+export const GRAY_COLOR = "#bdbbbf"
+export const GRAY2_COLOR = "#a0a0a0"
+export const WHITE_COLOR = "#fff"
+export const PRIMARY_COLOR = "#ea0000"
+export const INPUT_COLOR = "#f6f8fa"
