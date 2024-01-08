@@ -23,7 +23,7 @@ function DataWallet() {
         >
             {
                 datas.map(data => (
-                    <DataWalletItem data={data} />
+                    <DataWalletItem key={data.type} data={data} />
                 ))
             }
         </div>

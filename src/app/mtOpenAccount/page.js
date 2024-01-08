@@ -6,7 +6,7 @@ import Tabs from '@/components/Tabs'
 import ApplyAccount from '@/components/ApplyAccount'
 
 const tabs = ["Apply account"]
-const components = [<ApplyAccount />]
+const components = [<ApplyAccount key={"applyaccount"} />]
 function MtOpenAccount() {
 
     const route = useRouter()

@@ -11,7 +11,7 @@ function Tabs({ tabs, components }) {
             <div className='bg-transparent flex items-center'>
                 {
                     tabs.map((tab, index) => (
-                        <div onClick={() => setCurrentTab(index)} key={tab} className='relative flex items-center'>
+                        <div onClick={() => setCurrentTab(index)} key={index} className='relative flex items-center'>
                             {
                                 index !== 0 &&
                                 <div style={{

@@ -117,8 +117,10 @@ function Form({
                 </div>
                 <div className="flex flex-col items-center py-[10px]">
                     {
-                        inputs?.map(Input => (
-                            Input
+                        inputs?.map((Input, index) => (
+                            <div key={`input${index}`}>
+                                {Input}
+                            </div>
                         ))
                     }
                 </div>

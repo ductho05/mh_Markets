@@ -26,6 +26,7 @@ function Login() {
 
     const inputs = [
         <InputItem
+            key="emailLoginInput"
             type='email'
             placeholder='Please enter your email address'
             icon={<MailFilled className='text-red-500 text-[1.1vw]' />}
@@ -36,6 +37,7 @@ function Login() {
             width="30vw"
         />,
         <InputItem
+            key="passwordLoginInput"
             type='password'
             placeholder='Please enter password'
             icon={<KeyOutlined className='text-red-500 text-[1.1vw]' />}

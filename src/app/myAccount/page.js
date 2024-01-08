@@ -4,7 +4,7 @@ import Tabs from '@/components/Tabs'
 import React from 'react'
 
 const tabs = ['Real Account', 'Demo Account']
-const components = [<RealAccount />, <DemoAccount />]
+const components = [<RealAccount key={"real"} />, <DemoAccount key={"demo"} />]
 function myAccount() {
     return (
         <div className='p-[20px]'>

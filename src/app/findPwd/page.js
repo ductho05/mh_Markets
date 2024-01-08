@@ -15,7 +15,7 @@ const links = [
     }
 ]
 
-function page() {
+function FindPwd() {
 
     const {
         register,
@@ -27,6 +27,7 @@ function page() {
 
     const inputs = [
         <InputItem
+            key="emailInput"
             type='email'
             placeholder='Please enter your email address'
             icon={<MailFilled className='text-red-500 text-[1.1vw]' />}
@@ -37,6 +38,7 @@ function page() {
             width="30vw"
         />,
         <InputItem
+            key="verifiInput"
             type='code'
             placeholder='Please enter the vetification code'
             icon={<KeyOutlined className='text-red-500 text-[1.1vw]' />}
@@ -70,4 +72,4 @@ function page() {
     )
 }
 
-export default page
+export default FindPwd

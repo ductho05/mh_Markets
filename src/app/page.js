@@ -7,7 +7,7 @@ import Tabs from '@/components/Tabs';
 import React from 'react';
 
 const tabs = ['Statistics', 'Wallet']
-const components = [<DataStatistic />, <DataWallet />]
+const components = [<DataStatistic key={"statistic"} />, <DataWallet key={"wallet"} />]
 export default function Home() {
     return (
         <div className='p-[20px]'>
