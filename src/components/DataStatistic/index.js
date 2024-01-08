@@ -2,7 +2,7 @@ import React from 'react'
 import DataStatisticItem from './DataStatisticItem'
 import BG_Data_Cumulative from '@/assets/images/Backgrounds/BG_Data_Cumulative.png'
 import BG_Data_Yesterday from '@/assets/images/Backgrounds/BG_Data_Yesterday.png'
-import BG_Data_Today from '@/assets/images/Backgrounds/BG_Data_Today.png'
+import BG_Data_Today from '@/assets/images/Backgrounds/BG_DATA_Today.png'
 
 const datas = [
     {
