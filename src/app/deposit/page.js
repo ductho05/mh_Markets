@@ -5,7 +5,7 @@ import React from 'react'
 
 const tabs = ["Deposit"]
 
-const components = [<DepositList />]
+const components = [<DepositList key="deposit"/>]
 
 function Deposit() {
     return (
