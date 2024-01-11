@@ -6,6 +6,10 @@ body {
   background-color: #f0f2f5;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .ant-message-notice-content {
   box-shadow: none !important;
   border-radius: 4px !important;
@@ -37,8 +41,53 @@ body {
   height: 8px !important;
 }
 
+.ant-table-content,
 .ant-pagination,
 .ant-select-item-option-content,
 .ant-select-selection-item {
   font-size: 13px;
+}
+
+.ant-table-content::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.ant-table-content::-webkit-scrollbar-track {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--background-start-rgb), 0) 9%,
+    rgba(var(--background-end-rgb), 0.1)
+  );
+}
+
+.ant-table-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(39, 102, 241, 0.5),
+    rgba(59, 161, 242, 0.5),
+    rgba(81, 216, 145, 0.5),
+    rgba(225, 244, 62, 0.5)
+  );
+}
+
+.ant-btn-primary {
+  background-color: #f56c6c;
+}
+
+.ant-btn-primary:hover {
+  background-color: #f56c6c !important;
+}
+
+.ant-radio-checked::after {
+  border-color: red !important;
+}
+
+.ant-radio-wrapper:hover .ant-radio-inner {
+  border-color: red !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+  border-color: #f56c6c !important;
+  background-color: #f56c6c !important;
 }

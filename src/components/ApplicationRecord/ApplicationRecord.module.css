@@ -1,0 +1,20 @@
+.button_search {
+  margin-left: 20px;
+  border-color: #c6222f;
+  color: #c6222f;
+  box-shadow: none;
+}
+
+.button_search:hover {
+  border-color: #c6222f !important;
+  color: #c6222f !important;
+}
+
+.button_reset {
+  margin-left: 20px;
+}
+
+.button_reset:hover {
+  border-color: #d9d9d9 !important;
+  color: #000000e0 !important;
+}
