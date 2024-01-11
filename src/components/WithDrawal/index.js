@@ -242,9 +242,9 @@ function WithDrawalList() {
                                 placeholder="Please select MT account"
                                 allowClear
                             >
-                                <Option value="ms_pay">MT4: Account 1</Option>
-                                <Option value="ms_pay">MT4: Account 2</Option>
-                                <Option value="ms_pay">MT4: Account 3</Option>
+                                <Select.Option value="ms_pay">MT4: Account 1</Select.Option>
+                                <Select.Option value="ms_pay">MT4: Account 2</Select.Option>
+                                <Select.Option value="ms_pay">MT4: Account 3</Select.Option>
                             </Select>
                         </Form.Item>
                         <Form.Item
@@ -305,7 +305,7 @@ function WithDrawalList() {
                                 placeholder="Please select a bank card"
                                 defaultValue={{ label: `${currentBankAccount.type}: ${currentBankAccount.number}` }}
                             >
-                                <Option value="">{`${currentBankAccount.type}: ${currentBankAccount.number}`}</Option>
+                                <Select.Option value="">{`${currentBankAccount.type}: ${currentBankAccount.number}`}</Select.Option>
                             </Select>
                             <div className='flex mt-[20px] p-[20px] border rounded-[6px]'>
                                 <Image src={currentBankAccount.image} alt="bank image" width={100} height={100} className="object-contain" />

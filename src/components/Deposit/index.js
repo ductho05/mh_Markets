@@ -77,10 +77,10 @@ function DepositList() {
                                 placeholder="Please select a payment channel"
                                 allowClear
                             >
-                                <Option value="ms_pay">MSpay (USDT)</Option>
-                                <Option value="mt5">AWEpay (VND, MYR, THB)</Option>
-                                <Option value="mt5">Long77 (VND)</Option>
-                                <Option value="mt5">MyPay (VND)</Option>
+                                <Select.Option value="ms_pay">MSpay (USDT)</Select.Option>
+                                <Select.Option value="mt5">AWEpay (VND, MYR, THB)</Select.Option>
+                                <Select.Option value="mt5">Long77 (VND)</Select.Option>
+                                <Select.Option value="mt5">MyPay (VND)</Select.Option>
                             </Select>
                         </Form.Item>
                         <Form.Item
